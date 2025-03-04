@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "BM Lyon favorites",
+    "version": "1.0",
+    "description": "Add books to your reading list and check availability in Lyon public libraries",
+    "homepage_url": "https://github.com/ncherel/bm-lyon-favorites",
+    "icons": {
+	"48": "icons/icon_48.png"
+    },
+
+    "permissions": [
+	"storage",
+	"webRequest",
+	"*://catalogue.bm-lyon.fr/*"
+    ],
+
+    "browser_action": {
+	"default_icon": "icons/icon_32.png",
+	"default_title": "BM Lyon favorites",
+	"default_popup": "popup.html"
+    },
+
+    "content_scripts": [
+	{
+	    "matches": ["*://catalogue.bm-lyon.fr/*"],
+	    "js": ["content.js"]
+	}
+    ]
+}
