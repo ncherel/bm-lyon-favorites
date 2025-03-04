@@ -4,6 +4,12 @@
     "version": "1.0",
     "description": "Add books to your reading list and check availability in Lyon public libraries",
     "homepage_url": "https://github.com/ncherel/bm-lyon-favorites",
+    "browser_specific_settings": {
+	"gecko": {
+	    "id": "{12a95d3f-0eba-4480-9528-f3f2b3f12e2d}",
+	    "strict_min_version": "115.0"
+	}
+    },
     "icons": {
 	"48": "icons/icon_48.png"
     },
