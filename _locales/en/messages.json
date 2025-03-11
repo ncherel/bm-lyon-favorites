@@ -1,0 +1,43 @@
+{
+    "extensionName": {
+	"message": "BM Lyon favorites",
+	"description": "Name of the extension."
+    },
+
+    "extensionDescription": {
+	"message": "Add books to your reading list and check availability in Lyon public libraries",
+	"description": "Description of the extension."
+    },
+
+    "buttonText": {
+	"message": "Check availability",
+	"description": "Text for popup button"
+    },
+
+    "librariesHeader": {
+	"message": "My libraries",
+	"description": "Libraries header in popup"
+    },
+
+    "booksHeader": {
+	"message": "My books",
+	"description": "Books header in popup"
+    },
+
+    "availabilityLegendUnknown": {
+	"message": "unknown"
+    },
+
+    "availabilityLegendAvailable": {
+	"message": "available"
+    },
+
+    "availabilityLegendTaken": {
+	"message": "taken"
+    },
+
+    "availabilityLegendUnavailable": {
+	"message": "unavailable"
+    }
+}
+

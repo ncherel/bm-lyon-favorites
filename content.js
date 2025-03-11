@@ -1,4 +1,4 @@
-const verbose = true;
+const verbose = false;
 
 // Read ID from the URL
 // sanitize and read the identifier (last 10 digits)

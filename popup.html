@@ -10,7 +10,7 @@
     <div id="popup-content">
 
       <div>
-	<h4>My libraries</h4>
+	<h4 data-i18n="librariesHeader">My libraries</h4>
 	<div id="checkbox-container">
 	</div>
       </div>
@@ -19,11 +19,26 @@
 
       <div>
 	<div class="left">
-	  <h4>Books</h4>
+	  <h4 data-i18n="booksHeader">Books</h4>
+
+	  <div>
+	  <span>
+	    ? : <span data-i18n="availabilityLegendUnknown">unknown</span>
+	  </span>
+	  <span class="available">
+	    ✓ : <span data-i18n="availabilityLegendAvailable">Available</span>
+	  </span>
+	  <span class="taken">
+	    ✗ : <span data-i18n="availabilityLegendTaken">Taken</span>
+	  </span>
+	  <span class="unavailable">
+	    ✗ : <span data-i18n="availabilityLegendUnavailable">Unavailable</span>
+	  </span>
+	  </div>
 	</div>
 	<div class="right">
       <button id="book">
-	Check availability ⟳
+	<span data-i18n="buttonText">Check availability</span> ⟳
       </button>
       </div>
 
@@ -39,6 +54,7 @@
       </table>
       </div>
     </div>
+    <script src="localize.js"></script>
     <script src="popup.js"></script>
   </body>
 </html>

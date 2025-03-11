@@ -1,8 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "BM Lyon favorites",
-    "version": "1.0",
-    "description": "Add books to your reading list and check availability in Lyon public libraries",
+    "name": "__MSG_extensionName__",
+    "default_locale": "en",
+    "version": "1.1",
+    "description": "__MSG_extensionDescription__",
     "homepage_url": "https://github.com/ncherel/bm-lyon-favorites",
     "browser_specific_settings": {
 	"gecko": {
